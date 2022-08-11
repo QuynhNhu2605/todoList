@@ -1,0 +1,116 @@
+.todo-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+.todo-input {
+    border: 2px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right bottom, #6a5af9, #f62682);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    padding-top: 5px;
+    width: 200px;
+    height: 30px;
+}
+
+.todo-button {
+    background: linear-gradient(to right, #7927b2, #fb3182);
+    border: none;
+    width: 100px;
+    height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin: 5px;
+    float: right;
+
+}
+
+.todo-add {
+    display: block;
+}
+
+.todo-show {
+    background: linear-gradient(to right, #7927b2, #fb3182);
+    border: none;
+    height: 25px;
+    width: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin: 5px;
+    float: right;
+
+
+}
+
+.todo-edit {
+    background: linear-gradient(to right, #7927b2, #fb3182);
+    border: none;
+    height: 25px;
+    width: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin: 5px;
+    float: right;
+}
+
+.todo-delete {
+    background: linear-gradient(to right, #7927b2, #fb3182);
+    border: none;
+    height: 25px;
+    width: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin: 5px;
+    float: right;
+
+}
+
+.todo-child {
+    border-bottom: 1px solid #6a5af9;
+    margin-top: 20px;
+}
+
+.detail-header {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.detail-infor {
+    margin-left: 16px;
+    display: flex;
+}
+
+.detail-content {
+    margin-left: 10px;
+}
+
+.detail-content p {
+    font-weight: 400;
+}
+
+.detail-title p {
+    font-weight: 500;
+}
+
+.todo-detail{
+    border:1px solid #6a5af9;
+    position: absolute;
+    background-color: white;
+    top: -48%;
+    left: -19%;
+    min-height: 180px;
+    display: none;
+}
+.detail-action{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.detail-action button{
+    cursor: pointer;
+}
